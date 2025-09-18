@@ -26,6 +26,7 @@ class EBooks extends Books {
     }
 }
 
+
 class RealBook extends EBooks {
     public RealBook(String title, String author, String genre, String publisher, int pages,
                     String platform, Boolean isAvailable) {
