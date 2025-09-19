@@ -27,9 +27,9 @@ class EBooks extends Books {
 }
 
 
-class RealBook extends EBooks {
-    public RealBook(String title, String author, String genre, String publisher, int pages,
-                    String platform, Boolean isAvailable) {
+class EBookImpl extends EBooks {
+    public EBookImpl(String title, String author, String genre, String publisher, int pages,
+                     String platform, Boolean isAvailable) {
         super(title, author, genre, publisher, pages, platform, isAvailable);
     }
 }
