@@ -1,6 +1,8 @@
+import domain.EBookImpl;
+
 /*
-프로그램 컨텍스트를 만들어 사용자 입력을 위한 Scanner 객체를 받을 수 있게 했고, 해당 컨텍스트에 bookList를 담아뒀습니다.
-State를 사용해 구현하는 방식은 처음이라 설계 자체에도 긴 시간이 걸렸습니다.(이 부분에서 AI의 도움을 받았습니다.)
+프로그램 컨텍스트를 만들어 해당 컨텍스트에 bookList를 담아뒀습니다.
+State를 사용해 구현하는 방식은 처음이라 설계 자체에도 긴 시간이 걸렸습니다.(이 부분에서 AI의 도움을 받았습니다.) (09.18)
  */
 public class ProgramContext {
     static EBookImpl[] bookList = new EBookImpl[7];

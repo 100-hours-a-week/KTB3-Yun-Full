@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BookService {
     ProgramContext context;
-    Scanner input =  new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
 
     public BookService(ProgramContext context) {
         this.context = context;
@@ -18,7 +18,7 @@ public class BookService {
 
     public void showBookList() {
         System.out.println("\n현재 시스템에 등록된 전자책 목록입니다.\n");
-        for (int i = 0; i<ProgramContext.bookList.length; i++){
+        for (int i = 0; i< ProgramContext.bookList.length; i++){
             System.out.printf("[%d] ", i + 1);
             System.out.printf("제목: %s | ", ProgramContext.bookList[i].title);
             System.out.printf("작가: %s\n", ProgramContext.bookList[i].author);
